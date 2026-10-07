@@ -512,6 +512,13 @@ img[src$="lecture-5.jpg"] { object-position: 62% 42%; } /* 대표가 서 있는 
   .article__body table { display: block; overflow-x: auto; }
 }
 
+/* ---------- 진단 가격 ---------- */
+.price-extra { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 20px; }
+.price-extra li { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 20px 24px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg); }
+.price-extra b { font-size: 17px; }
+.price-extra span { font-size: 20px; font-weight: 800; }
+@media (max-width: 640px) { .price-extra { grid-template-columns: 1fr; } }
+
 /* ---------- 저서 ---------- */
 .book { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 6vw, 88px); align-items: center; }
 .book__cover { margin: 0; border-radius: var(--radius); overflow: hidden; background: var(--tint); box-shadow: var(--shadow-deep); }

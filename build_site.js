@@ -259,7 +259,7 @@ const newsMain = `
   <section class="section" aria-label="소식 목록">
     <div class="wrap">
       ${posts.length ? `<div class="news-grid" data-stagger>${cards}
-      </div>` : `<p class="news-empty">아직 올라온 소식이 없어요. 곧 새 소식으로 찾아올게요.</p>`}
+      </div>` : `<p class="news-empty">곧 새로운 소식을 올리겠습니다.</p>`}
     </div>
   </section>
 ${ctaBand}
