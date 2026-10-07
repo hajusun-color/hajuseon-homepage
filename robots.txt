@@ -3,5 +3,5 @@ Allow: /
 # 글쓰기 관리자 화면은 검색에 나오지 않게
 Disallow: /admin/
 
-# 배포 후 입력: https://SITE-URL 을 실제 홈페이지 주소로 바꾸세요 (build_site.js 의 SITE_URL 을 바꾸면 dist 에는 자동으로 채워짐)
-Sitemap: https://SITE-URL/sitemap.xml
+# 사이트맵 주소
+Sitemap: https://spiffy-fairy-03f63f.netlify.app/sitemap.xml

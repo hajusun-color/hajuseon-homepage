@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 배포 후 입력: https://SITE-URL 을 실제 홈페이지 주소로 바꾸세요 -->
+<!-- 홈페이지 공개 주소: https://spiffy-fairy-03f63f.netlify.app -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://SITE-URL/</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://SITE-URL/about.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://SITE-URL/expert.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://SITE-URL/services.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://SITE-URL/instructor-course.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://SITE-URL/color-diagnosis.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://SITE-URL/lecture.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://SITE-URL/gallery.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://SITE-URL/faq.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://SITE-URL/contact.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://spiffy-fairy-03f63f.netlify.app/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://spiffy-fairy-03f63f.netlify.app/about.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://spiffy-fairy-03f63f.netlify.app/expert.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://spiffy-fairy-03f63f.netlify.app/services.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://spiffy-fairy-03f63f.netlify.app/instructor-course.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://spiffy-fairy-03f63f.netlify.app/color-diagnosis.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://spiffy-fairy-03f63f.netlify.app/lecture.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://spiffy-fairy-03f63f.netlify.app/gallery.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://spiffy-fairy-03f63f.netlify.app/faq.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://spiffy-fairy-03f63f.netlify.app/contact.html</loc><lastmod>2026-10-06</lastmod></url>
 </urlset>

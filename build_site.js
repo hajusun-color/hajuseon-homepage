@@ -12,7 +12,7 @@ const path = require('path');
 const { marked } = require('marked');
 
 /* ▼ 홈페이지 공개 주소: 정해지면 여기 한 곳만 바꾸세요 (또는 Netlify 환경변수 SITE_URL) */
-const SITE_URL = (process.env.SITE_URL || 'https://SITE-URL').replace(/\/+$/, '');
+const SITE_URL = (process.env.SITE_URL || 'https://spiffy-fairy-03f63f.netlify.app').replace(/\/+$/, '');
 const BRAND = '하주선퍼스널컬러교육원';
 
 const ROOT = __dirname;
@@ -97,7 +97,7 @@ function addNewsMenu(html, current) {
   }
   return html;
 }
-const fillSiteUrl = html => html.split('https://SITE-URL').join(SITE_URL);
+const fillSiteUrl = html => html.split('https://spiffy-fairy-03f63f.netlify.app').join(SITE_URL);
 
 /* ---------- 공통 머리·메뉴·푸터 (faq.html 에서 가져옴: 지금 홈페이지와 똑같이) ---------- */
 const shellSrc = read(path.join(ROOT, 'faq.html'));
@@ -290,4 +290,4 @@ fs.writeFileSync(path.join(DIST, 'sitemap.xml'),
 fs.writeFileSync(path.join(DIST, 'robots.txt'), fillSiteUrl(read(path.join(DIST, 'robots.txt'))));
 
 console.log(`완료: 소식 글 ${posts.length}개 (임시저장 제외), 페이지 ${pages.length + 1 + posts.length}개 → dist 폴더`);
-console.log(`공개 주소: ${SITE_URL}${SITE_URL.includes('SITE-URL') ? '  (아직 정해지지 않음 → build_site.js 맨 위 SITE_URL 에서 바꾸기)' : ''}`);
+console.log(`공개 주소: ${SITE_URL}`);
