@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 홈페이지 공개 주소: https://hajusun-color.github.io/hajuseon-homepage -->
+<!-- 홈페이지 공개 주소: https://hajusun-color.github.io -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://hajusun-color.github.io/hajuseon-homepage/</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://hajusun-color.github.io/hajuseon-homepage/about.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://hajusun-color.github.io/hajuseon-homepage/expert.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://hajusun-color.github.io/hajuseon-homepage/services.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://hajusun-color.github.io/hajuseon-homepage/instructor-course.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://hajusun-color.github.io/hajuseon-homepage/color-diagnosis.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://hajusun-color.github.io/hajuseon-homepage/lecture.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://hajusun-color.github.io/hajuseon-homepage/gallery.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://hajusun-color.github.io/hajuseon-homepage/faq.html</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://hajusun-color.github.io/hajuseon-homepage/contact.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://hajusun-color.github.io/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://hajusun-color.github.io/about.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://hajusun-color.github.io/expert.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://hajusun-color.github.io/services.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://hajusun-color.github.io/instructor-course.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://hajusun-color.github.io/color-diagnosis.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://hajusun-color.github.io/lecture.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://hajusun-color.github.io/gallery.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://hajusun-color.github.io/faq.html</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://hajusun-color.github.io/contact.html</loc><lastmod>2026-10-06</lastmod></url>
 </urlset>

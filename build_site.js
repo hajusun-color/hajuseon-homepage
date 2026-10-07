@@ -12,7 +12,7 @@ const path = require('path');
 const { marked } = require('marked');
 
 /* ▼ 홈페이지 공개 주소: 정해지면 여기 한 곳만 바꾸세요 (또는 환경변수 SITE_URL) */
-const SITE_URL = (process.env.SITE_URL || 'https://hajusun-color.github.io/hajuseon-homepage').replace(/\/+$/, '');
+const SITE_URL = (process.env.SITE_URL || 'https://hajusun-color.github.io').replace(/\/+$/, '');
 const BRAND = '하주선퍼스널컬러교육원';
 
 const ROOT = __dirname;
@@ -97,7 +97,7 @@ function addNewsMenu(html, current) {
   }
   return html;
 }
-const fillSiteUrl = html => html.split('https://hajusun-color.github.io/hajuseon-homepage').join(SITE_URL);
+const fillSiteUrl = html => html.split('https://hajusun-color.github.io').join(SITE_URL);
 
 /* ---------- 공통 머리·메뉴·푸터 (faq.html 에서 가져옴: 지금 홈페이지와 똑같이) ---------- */
 const shellSrc = read(path.join(ROOT, 'faq.html'));
