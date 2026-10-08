@@ -25,6 +25,8 @@ const SKIP_IN_IMAGES = new Set(['원본', '사진넣는법.txt']);
 /* ---------- 도우미 ---------- */
 const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const read = p => fs.readFileSync(p, 'utf8');
+/* "09시~19시"처럼 물결표 하나는 그대로 보이게 (물결표 하나 사이 글자에 취소선이 그어지는 것 방지, "~~글자~~"는 그대로 취소선) */
+const keepTilde = s => s.replace(/(^|[^~])~(?!~)/g, '$1&#126;');
 function copyDir(src, dst, skip) {
   fs.mkdirSync(dst, { recursive: true });
   for (const name of fs.readdirSync(src)) {
@@ -63,7 +65,7 @@ function parsePost(file) {
     summary: data.summary || '',
     image: normImage(data.image),
     draft: data.draft === true,
-    html: marked.parse(body)
+    html: marked.parse(keepTilde(body))
   };
 }
 /* 대표이미지 경로 정리: "lecture-5.jpg" → images/lecture-5.jpg, "/images/uploads/a.jpg" → images/uploads/a.jpg */
